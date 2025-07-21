@@ -9,10 +9,10 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    String email;
-    int idade;
+    public Long id;
+    public String nome;
+    public String email;
+    public int idade;
 
     public NinjaModel() {
     }
